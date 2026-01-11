@@ -1,6 +1,9 @@
 # Portfolio Returns Tear Sheet
 
-A script to generate performance metrics for a specific stock against a benchmark using `pyfolio`, handling timezone mismatches (e.g. LSE vs NYSE) automatically.
+'single_stock' notebook to generate performance metrics for a specific stock against a benchmark using `pyfolio`, handling timezone mismatches (e.g. LSE vs NYSE) automatically.
+
+'portfolio_level' to consider portfolio as a whole.
+
 
 ## Setup (using uv)
 
@@ -16,3 +19,8 @@ uv pip install yfinance pyfolio-reloaded jupyterlab ipykernel
 - Open 'main' notebook
 - Update stock ticker for stock of interest and benchmark (match yahoo finance ticker)
 - Run analysis
+
+
+## Current portfolio and weightings (Jan 2026)
+
+![alt text](image.png)
